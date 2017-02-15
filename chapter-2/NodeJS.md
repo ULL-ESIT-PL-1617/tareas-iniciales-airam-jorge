@@ -34,6 +34,22 @@ Es rápido, muy rápido. Esto es importante por varias razones:
 * **Muchas Formas de Programar:** La falta inherente de organización de código se puede considerar una gran desventaja.
 * **No está Probado lo Suficiente.** Mientras no tengamos grandes proyectos en producción por varios años, no podremos saber donde está el problema.
 
+# NPM
+
+*Node Package Manager* es el gestor que permite reutilizar código creado por otros usuarios para *NodeJS*. Otros desarrolladores crean módulos a los que podemos tener acceso instalándolos en el directorio del proyecto o de forma global en todo nuestro sistema. La instalación de `npm`se lleva a cabo junto a la instalación de *NodeJS*, explicada más adelante.
+
+## Instalación de paquetes con npm
+
+Para instalar paquetes para un proyecto que utilice *NodeJS* podemos ejecutar el siguiente comando.
+
+`npm install --save-dev package`
+
+Donde `package`es el paquete en cuestión que queremos instalar y `--save` indica que será una dependencia o, en nuestro caso, `--save-dev`una dependencia de desarrollo exclusivamente. También existe la opción `--save-optional`para que se muestre en la dependencias opcionales. 
+
+`npm install --global package`
+
+En este caso se nos permitirá instalar un paquete de forma global a todo la máqouina.
+
 # Instalar NODEJS usando el instalador o los binarios oficiales
 
 ## Instalación de NodeJS en Windows
