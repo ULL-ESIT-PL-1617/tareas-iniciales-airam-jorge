@@ -73,3 +73,26 @@ sudo apt-get install nodejs npm
 Accedemos a la página de Node y descargar el instalador. Se instala como cualquier otra aplicación, tanto el propio NodeJS como npm.
 
 ## Algunos comandos de NodeJS
+
+Tras ejecutar el comando node accedemos a la línea de comandos del propio NodeJS, donde podremos escribir los comandos tales como:
+
+```
+
+$ node
+>console.log("Hola Mundo");
+Hola Mundo
+undefined
+>console.log(30+52);
+82
+undefined
+>var x = 300;
+undefined
+>var y = 250;
+undefined
+>console.log(x+y);
+550
+undefined
+
+```
+
+Observarás que te salen unos mensajes "undefined" en la consola y es porque las instrucciones que estamos ejecutando como "console.log()" no devuelven ningún valor.
