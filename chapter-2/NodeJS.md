@@ -93,11 +93,10 @@ $ sudo dnf install nodejs
 $ sudo apt-get install build-essential
 $ sudo apt-get install nodejs
 ```
-
-Al finalizar cualquiera de los procedimientos descritos arriba, habremos instalado node js y npm en nuestra máquina y estaremos listos para desarrollar nuestras aplicaciones usando el lenguaje de programación llamado JavaScript.
-
 ### Mac (con Homebrew)
 $ brew install nodejs
+
+Al finalizar cualquiera de los procedimientos descritos arriba, habremos instalado node js y npm en nuestra máquina y estaremos listos para desarrollar nuestras aplicaciones usando el lenguaje de programación llamado JavaScript.
 
 ## Algunos comandos de NodeJS
 
