@@ -8,3 +8,4 @@
 * [GitHub](chapter-6/GitHub.md)
 * [gh-pages](chapter-6/gh-pages.md)
 * [Gulp](chapter-6/Gulp.md)
+* [Gitbook](chapter-7/Gitbook.md)
