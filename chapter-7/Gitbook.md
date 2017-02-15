@@ -6,6 +6,8 @@ Utilizando Markdown podemos maquetar los documentos y crearlos en distintos form
 
 Los libros en GitBook podrán ser publicados de forma pública gratuita o bajo una tasa de pago mensual existe la posibilidad de hacerlo de forma privada.
 
+Si se encuentran problemas a la hora de utilizar los comandos *push* o *pull* del servidor, véase la sección de los *tokens* en GitBook.
+
 ## La plataforma
 
 Una vez creada la cuenta nueva o utilizando la ya existente en GitHub podremos entrar al dashboard principal donde veremos los libros que hemos creado como objeto central. Desde aquí podremos crear un libro nuevo con el botón superior.
@@ -99,3 +101,8 @@ En este punto hemos generado el libro que podremos ver accediendo al repositorio
 
 - `gitbook serve` : Levantará un servidor al que podremos conectarnos para navegar rápidamente por el libro como si hubiéramos generado los archivos con `gitbook build`. 
 
+El libro publicado además estará **disponible en GitBook mediante un enlace** del tipo:
+
+`https://username.gitbooks.io/tareas-iniciales/content/`
+
+## Tokens de GitBook
