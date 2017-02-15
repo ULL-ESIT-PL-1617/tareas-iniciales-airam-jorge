@@ -70,7 +70,7 @@ Sin embargo, este proceso se puede automatizar, entre otras formas mediante la i
 
 Desde aquí podemos actualizar el libro editando los archivos y haciendo *commits* como normalmente. 
 
-Se recomienda seguir la siguiente estructura de directorios en el repositorio del GitBook. Y mantener las imágenes y otros archivos 
+Se recomienda seguir la siguiente estructura de directorios en el repositorio del GitBook. Y mantener las imágenes y otros archivos en una carpeta denominada *assets*.
 
 ```
 .
@@ -84,10 +84,22 @@ Se recomienda seguir la siguiente estructura de directorios en el repositorio de
     ├── README.md
     └── something.md
 ```
+|Archivo|	Description|
+|----|----|
+|book.json|	Almacena datos de configuración (opcional)|
+|README.md|	Prefacio / Introducción al libro (**requerido**)|
+|SUMMARY.md|	Tabla de contenidos (opcional)|
+|GLOSSARY.md|	Lexico, lista de términos (opcional)|
+
+#### Generar el libro
+
+En este punto hemos generado el libro que podremos ver accediendo al repositorio en GitBook, pero también es posible (y necesario para el uso de GitHub pages) generar una página web (también es posible generar otro tipo de archivos). Existen dos formas de hacerlo:
+
+- `gitbook build` : Generará un directorio `_book` que contendrá los archivos *html* del libro. Una vez publicada la rama gh-pages en GitHub, podemos eliminar todo el contenido extra en dicha rama y colocar los archivos de `_book` directamente en la raiz.
+
+- `gitbook serve` : Levantará un servidor al que podremos conectarnos para navegar rápidamente por el libro como si hubiéramos generado los archivos con `gitbook build`. 
 
 
-Que es gitbook y como se utiliza  
-Como se despliega un lkibro en gitbook.com  
 Instale gitbook desktop
 hub
 ssh git
