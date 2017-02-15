@@ -25,6 +25,7 @@ En nuestro caso seleccionaremos la opción de **Libro y Manual**. A continuació
 
 ![](/assets/gitbook2.PNG)
 
+Se utiliza después 
 Que es gitbook y como se utiliza  
 Como se despliega un lkibro en gitbook.com  
 Instale gitbook desktop
