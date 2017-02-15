@@ -7,6 +7,18 @@ En primer lugar deberemos crear una rama huérfana:
 Luego deberemos borrar todo aquello que no sea necesario para la visualización de la página, siendo necesario tener un index.html en la raíz del repositorio.
 Una vez puesto todo como queremos, realizamos un commit:
 `$ git commit -m 'creamos la rama gh-pages'`
-
+Y empujamos todo al repositorio de GitHub:
+` $git push --set-upstream origin gh-pages`
+Para visitar el 
 Cómo usar Gh-pages para automatizar despliegues
 gulp-gh-pages
+`import GhPages from 'gh-pages'
+
+export default function deployGitbook () {
+  return new Promise((resolve, reject) => {
+    GhPages.publish('./gh-pages', {
+      repo: require('../package.json').repository.url,
+      logger: console.log
+    }, resolve)
+  })
+}`
