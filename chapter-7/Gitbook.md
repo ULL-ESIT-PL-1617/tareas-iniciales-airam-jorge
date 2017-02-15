@@ -99,8 +99,3 @@ En este punto hemos generado el libro que podremos ver accediendo al repositorio
 
 - `gitbook serve` : Levantará un servidor al que podremos conectarnos para navegar rápidamente por el libro como si hubiéramos generado los archivos con `gitbook build`. 
 
-
-Instale gitbook desktop
-hub
-ssh git
-
