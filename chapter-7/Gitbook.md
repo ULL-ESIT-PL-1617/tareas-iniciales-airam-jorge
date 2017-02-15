@@ -57,14 +57,38 @@ Para la creación del libro, deberemos instalar el paquete `gitbook-cli`, lo ins
 
 `npm install gitbook-cli -g`
 
-En este punto podemos decidir clonar uno de los repositorios existentes o recien creado y continuar desde ese punto.
+En este punto podemos decidir clonar uno de los repositorios existentes o recién creado y continuar desde ese punto.
 
 `git clone [url]`
 
-Podemos 
+Podemos añadir ahora un remoto que hayamos creado en GitHub y hacer un *push* para subir los archivos y posteriormente publicarlo mediante las `gh-pagesp`. 
+
+`git remote add [nombre] [url GitHub]`
+`git push [nombre] master`
+
+Sin embargo, este proceso se puede automatizar, entre otras formas mediante la interfaz online de GitBook que se verá más adelante.
+
+Desde aquí podemos actualizar el libro editando los archivos y haciendo *commits* como normalmente. 
+
+Se recomienda seguir la siguiente estructura de directorios en el repositorio del GitBook. Y mantener las imágenes y otros archivos 
+
+```
+.
+├── book.json
+├── README.md
+├── SUMMARY.md
+├── chapter-1/
+|   ├── README.md
+|   └── something.md
+└── chapter-2/
+    ├── README.md
+    └── something.md
+```
+
 
 Que es gitbook y como se utiliza  
 Como se despliega un lkibro en gitbook.com  
 Instale gitbook desktop
 hub
+ssh git
 
