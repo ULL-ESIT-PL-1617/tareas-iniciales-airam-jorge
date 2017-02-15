@@ -23,4 +23,22 @@ Para crear una issue deberemos darle al botón **issue** de nuestro repositorio 
 ![](/img/issues.PNG)
 Una vez ahí rellenamos el título de la incidencia y en el comentario podemos referirnos a un commit concreto, asignárselo a una persona (en la parte derecha assignees), aplicar una categoría a la issue (labels, en la parte derecha).
 Una vez terminado le damos a **Submit new issue**.
-### 
+### Hub
+Hub es una herramienta de línea de comandos que envuelve git con el fin de ampliarlo con funciones y comandos adicionales que facilitan el trabajo con GitHub.
+Ejemplo:
+```
+$ hub clone rtomayko/tilt
+# Se expande a:
+$ git clone git://github.com/rtomayko/tilt.git
+```
+
+#### Instalación
+[Aquí](https://github.com/github/hub/releases) podemos obtener el archivo de descarga para poder instalar hub en distintos sistemas operativos como OS X, Linux, Windows, FreeBSD.
+Para instalarlo desde la fuente de [hub](https://github.com/github/hub) en git:
+
+```
+$ git clone https://github.com/github/hub.git
+$ cd hub
+$ make install prefix=/usr/local
+```
+
