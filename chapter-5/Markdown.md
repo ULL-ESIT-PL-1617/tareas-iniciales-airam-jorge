@@ -21,3 +21,10 @@ Como acabas de ver hace un momento, este lenguaje de marcado está basado en un 
 Este tipo de formato siempre será compatible con todas las plataformas que utilices, así que utilizar Markdown es una manera de mantener todo tu contenido siempre accesible desde cualquier dispositivo (smartphones, ordenadores de escritorio, tablets…), ya que en cualquiera de ellas siempre encontrarás las aplicaciones adecuadas para leer y editar este tipo de contenido.
 
 [Aquí]("http://joedicastro.com/pages/markdown.html") tendrás un link donde podrás observar algunos "trucos" para agilizar el aprendizaje de este lenguaje.
+
+## Editor
+
+### Atom
+
+Atom es un editor de código de fuente abierta para macOS, Linux, y Windows con soporte para plug-ins escrito en Node.js, Incrustando Git Control, desarrollado por GitHub. Atom es una aplicacion de escritorio construida utilizando tecnologias web. La mayor parte de los paquetes tienen licencias de software libre y es construido y mantenido por su comunidad.
+
