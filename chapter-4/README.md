@@ -33,6 +33,4 @@ Le damos un nombre al entorno, por ejemplo "*pl-ull-2017*" y una descripción si
 ### Preparación de la máquina
 
 Podemos comprobar que la herramienta `npm` ya se encuentra instalada junto con `node` (NodeJS) ambas las necesitaremos más adelante. Si no lo estuviera podemos seguir las instrucciones de instalación que se detallan en la sección de *NodeJS*.
-
-Una vez tengamos instalado *NodeJS* 
   
