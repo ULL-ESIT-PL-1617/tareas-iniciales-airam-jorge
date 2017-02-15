@@ -8,7 +8,7 @@ Para registrarnos debemos seguir los siguientes pasos:
 3.    Una vez verificada la cuenta ya podemos disfrutar de todas las ventajas que nos ofrece esta plataforma.
 ### ¿Que son los projects? ###
 Los projects son tareas, etapas o pasos por los que pasa el proyecto, podemos consultarlos en la pestaña **Projects** de nuestro repositorio.
-Podemos crear, modificar 
+Podemos crear, modificar, eliminar
 ### ¿Cómo crear un repositorio? ###
 Para crear un repositorio en Github debemos seguir los siguientes pasos:
 1.    Hacer pulsamos el botón que aparece en la siguiente imagen: ![](/img/github_crear_repo.png)
