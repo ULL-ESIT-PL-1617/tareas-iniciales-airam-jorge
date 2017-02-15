@@ -6,7 +6,7 @@ Utilizando Markdown podemos maquetar los documentos y crearlos en distintos form
 
 ## La plataforma
 
-![](img/gitbook1.PNG)
+Una vez creada la cuenta nueva o utilizando la ya existente en GitHub podremos entrar al dashboard principal donde veremos los libros que hemos creado como objeto central. Desde aquí podremos crear un libro nuevo con el botón superior.
 
 Que es gitbook y como se utiliza  
 Como se despliega un lkibro en gitbook.com  
