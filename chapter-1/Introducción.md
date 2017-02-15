@@ -1,5 +1,5 @@
 # Introducción al tutorial
-Este tutorial explicará los pasos para instalar las diferentes herramientas que se utilizarán a lo largo de la asignatura Procesadores del Lenguaje.
+Este tutorial explicará los pasos para instalar las diferentes herramientas que se utilizarán a lo largo de la asignatura Procesadores de Lenguaje.
 
 Se mostrará información acerca de Nodejs, Gh-pages, Gulp y Gitbook.
 
