@@ -4,4 +4,6 @@ Markdown nació como herramienta de conversión de texto plano a HTML. Aunque, e
 
 Este método te permitirá añadir formatos tales como negritas, cursivas o enlaces, utilizando simplemente texto plano, lo que hará de tu escritura algo más simple y eficiente al evitar distracciones.
 
-![Mou Icon](http://25.io/mou/img/1.png)
+![](/assets/Captura.PNG)
+
+## ¿Para qué sirve?
