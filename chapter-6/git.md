@@ -25,4 +25,4 @@ Al hacer esto se crea un directorio **.git** que contendrá toda la información
 ### Comandos de git:
 -  Clonar un repositorio: `$git clone username@host:/path/to/repository`
 -  Añadir archivos al control de versiones: `git add <filename>` o también `git add .`
--  Comentar y
+-  Comentar cambios
