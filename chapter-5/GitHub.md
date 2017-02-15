@@ -8,19 +8,19 @@ Para registrarnos debemos seguir los siguientes pasos:
 3.    Una vez verificada la cuenta ya podemos disfrutar de todas las ventajas que nos ofrece esta plataforma.
 ### ¿Cómo crear un repositorio?
 Para crear un repositorio en Github debemos seguir los siguientes pasos:
-1.    Hacer pulsamos el botón que aparece en la siguiente imagen: ![](/img/github_crear_repo.png)
-2.    Se nos abrirá un formulario como este: ![](/img/github_repo_form.png)
+1.    Hacer pulsamos el botón que aparece en la siguiente imagen: ![](/assets/github_crear_repo.png)
+2.    Se nos abrirá un formulario como este: ![](/assets/github_repo_form.png)
 3.    Una vez lo rellenemos le damos a **create repository**.
 4.    Y ya tenemos nuestro repositorio creado.
 ### ¿Que son los projects?
 Los projects son tareas, etapas o pasos por los que pasa el proyecto, podemos consultarlos en la pestaña **Projects** de nuestro repositorio.
 Podemos crear, modificar, eliminar o borrar etapas y llevarlas a otro estado, un ejemplo simple sería: 
-![](/img/projects.PNG)
+![](/assets/projects.PNG)
 Para cambiar de un estado a otro, simplemente arrastramos.
 ### ¿Qué son las issues?
 Una issue es el reporte de una incidencia o fallo en el repositorio de un proyecto.
 Para crear una issue deberemos darle al botón **issue** de nuestro repositorio y veremos algo como esto:
-![](/img/issues.PNG)
+![](/assets/issues.PNG)
 Una vez ahí rellenamos el título de la incidencia y en el comentario podemos referirnos a un commit concreto, asignárselo a una persona (en la parte derecha assignees), aplicar una categoría a la issue (labels, en la parte derecha).
 Una vez terminado le damos a **Submit new issue**.
 ### Hub
