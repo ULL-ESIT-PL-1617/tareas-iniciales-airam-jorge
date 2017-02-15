@@ -43,3 +43,5 @@ Al hacer esto se crea un directorio **.git** que contendrá toda la información
 -  Colores especiales: `$ git config color.ui true`
 -  Mostrar sólo una línea por cada commit en la traza: `$ git config format.pretty oneline`
 -  Agregar archivos de forma interactiva: `$ git add -i`
+### Claves ssh
+Puede ser útil generar claves públicas y privadas para acceder a los comandos de git que requieran autenticación sin necesidad de escribir los credenciales. 
