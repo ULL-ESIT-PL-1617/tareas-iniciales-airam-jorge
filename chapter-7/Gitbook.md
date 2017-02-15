@@ -109,4 +109,10 @@ El libro publicado además estará **disponible en GitBook mediante un enlace** 
 
 Para facilitar las autorizaciones y los repetidos inicios de sesión en GitBook, existe un sistema de tokens.
 
-Podemos generar un token accediendo a la opciones de nuestra cuenta haciendo click en nuestra imagen de avatar en la esquina superior derecha y después en la sección de *Tokens / Aplicaciones*![](/assets/gitbook5.PNG)
+Podemos generar un token accediendo a la opciones de nuestra cuenta haciendo click en nuestra imagen de avatar en la esquina superior derecha y después en la sección de *Tokens / Aplicaciones*. **Solo podemos acceder al *token* una vez**.
+
+Una vez tengamos el token, podemos cambiar los enlaces del repositorio local a la siguiente url para que no hayan problemas de autentificación.
+
+`https://<username>:<token>@git.gitbook...`
+
+![](/assets/gitbook5.PNG)
