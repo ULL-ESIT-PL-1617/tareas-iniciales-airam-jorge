@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introducción](README.md)
 * [Introducción al tutorial](chapter-1/Introducción.md)
 * [NodeJS](chapter-2/NodeJS.md)
 * [Plataforma C9](chapter-4/C9.md)
