@@ -11,3 +11,6 @@ Para crear un repositorio en Github debemos seguir los siguientes pasos:
 1.    Hacer pulsamos el botón que aparece en la siguiente imagen:
 2.    Se nos abrirá un formulario como este:
 3.    Una vez lo rellenemos le damos a **create repository**.
+4.    Y ya tenemos nuestro repositorio creado.
+### ¿Qué son las issues? ###
+Una issue es el reporte de una incidencia o fallo en el repositorio de un proyecto
