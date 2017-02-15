@@ -107,4 +107,6 @@ El libro publicado además estará **disponible en GitBook mediante un enlace** 
 
 ## Tokens de GitBook
 
-Para facilitar las autorizaciones y los repetidos inicios de sesión en GitBook, existe un sistema que permite 
+Para facilitar las autorizaciones y los repetidos inicios de sesión en GitBook, existe un sistema de tokens.
+
+Podemos generar un token accediendo a la opciones de nuestra cuenta haciendo click en nuestra imagen de avatar en la esquina superior derecha y después en la sección de *Tokens / Aplicaciones*![](/assets/gitbook5.PNG)
