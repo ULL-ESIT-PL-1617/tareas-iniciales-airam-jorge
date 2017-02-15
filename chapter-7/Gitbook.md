@@ -103,6 +103,8 @@ En este punto hemos generado el libro que podremos ver accediendo al repositorio
 
 El libro publicado además estará **disponible en GitBook mediante un enlace** del tipo:
 
-`https://username.gitbooks.io/tareas-iniciales/content/`
+`https://<username>.gitbooks.io/<book-name>/content/`
 
 ## Tokens de GitBook
+
+Para facilitar las autorizaciones y los repetidos inicios de sesión en GitBook, existe un sistema que permite 
