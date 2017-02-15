@@ -15,3 +15,4 @@ Para crear un repositorio en Github debemos seguir los siguientes pasos:
 ### ¿Qué son las issues? ###
 Una issue es el reporte de una incidencia o fallo en el repositorio de un proyecto.
 Para crear una issue deberemos darle al botón **issue**:
+![](/img/issues.PNG)
