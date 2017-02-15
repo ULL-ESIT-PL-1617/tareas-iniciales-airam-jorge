@@ -12,6 +12,8 @@ Al acceder al panel de creación de la cuenta se deberán seguir los pasos mostr
 4. Tipo de desarrollador y uso de Cloud9.
 5. Detalles de la tarjeta de crédito (*No se cargará ningún pago, se situará por defecto en el plan gratuito*).
 
+![](/img/c9.gif)
+
 Una vez iniciada la sesión llegará un correo con un link necesario para fijar una contraseña.
 
 ### Entorno de trabajo
