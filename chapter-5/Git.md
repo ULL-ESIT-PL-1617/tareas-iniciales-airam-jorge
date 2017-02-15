@@ -46,4 +46,8 @@ Al hacer esto se crea un directorio **.git** que contendrá toda la información
 ### Claves ssh
 Puede ser útil generar claves públicas y privadas para acceder a los comandos de git que requieran autenticación sin necesidad de escribir los credenciales. Para ello utilizaremos las herramientas de *git* que han sido instaladas junto con el paquete.
 
-* 
+* Generar una clave ssh si no existe una previamente: `shh-keygen`
+* Copiar la clave ssh del archivo `~/.ssh/id_rsa.pub`.
+* Añadir la clave a *GitHub*, bajo el apartado *SSH and GPG keys* en las opciones del perfil de *GitHub*.
+
+![](/assets/ssh.PNG)
