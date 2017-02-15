@@ -43,4 +43,3 @@ Solo tendrás que acceder a la terminal de Windows (cmd) e introducimos el coman
 
 ## Instalación de NodeJS en Linux
 
-sssss
