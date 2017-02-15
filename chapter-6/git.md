@@ -23,6 +23,23 @@ Para iniciar git sobre un directorio simplemente debemos ejecutar el comando:
 `$ git init`
 Al hacer esto se crea un directorio **.git** que contendrá toda la información de de nuestro proyecto y las modificaciones por las que ha pasado.
 ### Comandos de git:
--  Clonar un repositorio: `$git clone username@host:/path/to/repository`
--  Añadir archivos al control de versiones: `git add <filename>` o también `git add .`
--  Comentar cambios
+-  Clonar un repositorio: `$ git clone username@host:/path/to/repository`
+-  Añadir archivos al control de versiones: `$ git add <filename>` o también `$ git add .`
+-  Comentar cambios: `$ git commit -m "Commit message"`
+-  Conectar con el repositorio remoto: `$ git remote add <nombre> <server>`
+-  Enviar cambios: `$ git push origin master`
+-  Crear una rama y situarte en ella: `$ git checkout -b feature_x`
+-  Cambiar de rama: `$ git checkout <rama>`
+-  Borrar rama: `$ git branch -d <rama>`
+-  Actualizar el repositorio local: `$ git pull`
+-  Fusionar una rama a tu rama activa: `$ git merge <rama>`
+-  Comprobar cambios: `$ git diff <source_branch> <target_branch>`
+-  Crear una etiqueta a un commit: `$ git tag <etiqueta> <commit>`
+-  Consultar commits: `$ git log`
+-  Reemplazar cambios locales: `$ git checkout -- <filename>`
+-  Traer última versión: `$ git fetch origin`
+-  Deshacer todos los cambios locales y commits: `$ git reset --hard origin/master`
+-  Interfaz gráfica por defecto: `$ gitk`
+-  Colores especiales: `$ git config color.ui true`
+-  Mostrar sólo una línea por cada commit en la traza: `$ git config format.pretty oneline`
+-  Agregar archivos de forma interactiva: `$ git add -i`
