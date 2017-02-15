@@ -111,7 +111,7 @@ Para facilitar las autorizaciones y los repetidos inicios de sesión en GitBook,
 
 Podemos generar un token accediendo a la opciones de nuestra cuenta haciendo click en nuestra imagen de avatar en la esquina superior derecha y después en la sección de *Tokens / Aplicaciones*. **Solo podemos acceder al *token* una vez**.
 
-Una vez tengamos el token, podemos cambiar los enlaces del repositorio local a la siguiente url para que no hayan problemas de autentificación.
+Una vez tengamos el token, podemos cambiar los enlaces del repositorio local a la siguiente url para que no hayan problemas de autenticación.
 
 `https://<username>:<token>@git.gitbook...`
 
