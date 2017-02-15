@@ -9,11 +9,12 @@ Una vez puesto todo como queremos, realizamos un commit:
 `$ git commit -m 'creamos la rama gh-pages'`
 Y empujamos todo al repositorio de GitHub:
 ` $git push --set-upstream origin gh-pages`
-Para visitar el 
-Cómo usar Gh-pages para automatizar despliegues
-gulp-gh-pages
-`import GhPages from 'gh-pages'
-
+Para visitar la web del repositorio entramos en:
+`http(s)://<username>.github.io/<repositorio>`
+### ¿Cómo usar Gh-pages para automatizar despliegues?
+Para automatizar el despliegue podemos utilizar el siguiente código node.js:
+```js
+import GhPages from 'gh-pages'
 export default function deployGitbook () {
   return new Promise((resolve, reject) => {
     GhPages.publish('./gh-pages', {
@@ -21,4 +22,5 @@ export default function deployGitbook () {
       logger: console.log
     }, resolve)
   })
-}`
+}
+```
