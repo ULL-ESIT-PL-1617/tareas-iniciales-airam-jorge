@@ -4,6 +4,8 @@ GitBook es una excelente herramienta para crear documentación en Markdown de pr
 
 Utilizando Markdown podemos maquetar los documentos y crearlos en distintos formatos como PDF, ebook o web. Uno de los objetivos de GitBook es poder crear documentación que sea fácilmente editable y abierta a contribuciones, por eso usando Git/Github podemos publicar nuestro libro técnico y manejar las colaboraciones de forma transparente.
 
+Los libros en GitBook podrán ser publicados de forma pública gratuita o bajo una tasa de pago mensual existe la posibilidad de hacerlo de forma privada.
+
 ## La plataforma
 
 Una vez creada la cuenta nueva o utilizando la ya existente en GitHub podremos entrar al dashboard principal donde veremos los libros que hemos creado como objeto central. Desde aquí podremos crear un libro nuevo con el botón superior.
@@ -43,14 +45,26 @@ Continuamos seleccionando la opción de editar y se nos dará acceso a la pantal
 
 Los cambios serán publicados siempre que hagamos click en el botón superior izquierdo de publicar que estará disponible cada vez que se realicen cambios (O utilizando `CTRL+S`) y quedarán almacenados en la pestaña anteriormente mencionada de updates.
 
-### Aplicación de escritorio
+#### Aplicación de escritorio
 
-La aplicación de es
+La aplicación de escritorio también estará disponible para editar el libro sin necesidad de acceder de forma online. 
+
+GitBook Editor se encuentra disponible para [Mac](https://www.gitbook.com/editor/osx), [Windows](https://www.gitbook.com/editor/windows) o [Linux](https://www.gitbook.com/editor/linux).
 
 ### Creación de un libro mediante línea de comandos
 
-Para la creación del libro, deberán estar instalado 
+Para la creación del libro, deberemos instalar el paquete `gitbook-cli`, lo instalaremos de forma global para que este permanentemente disponible.
+
+`npm install gitbook-cli -g`
+
+En este punto podemos decidir clonar uno de los repositorios existentes o recien creado y continuar desde ese punto.
+
+`git clone [url]`
+
+Podemos 
+
 Que es gitbook y como se utiliza  
 Como se despliega un lkibro en gitbook.com  
 Instale gitbook desktop
+hub
 
