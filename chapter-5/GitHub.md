@@ -15,7 +15,7 @@ Para crear un repositorio en Github debemos seguir los siguientes pasos:
 ### ¿Que son los projects?
 Los projects son tareas, etapas o pasos por los que pasa el proyecto, podemos consultarlos en la pestaña **Projects** de nuestro repositorio.
 Podemos crear, modificar, eliminar o borrar etapas y llevarlas a otro estado, un ejemplo simple sería: 
-![](/assets/projects.PNG)
+![](/assets/gh4.png)
 Para cambiar de un estado a otro, simplemente arrastramos.
 ### ¿Qué son las issues?
 Una issue es el reporte de una incidencia o fallo en el repositorio de un proyecto.
