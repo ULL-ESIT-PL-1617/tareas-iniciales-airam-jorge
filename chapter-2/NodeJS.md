@@ -78,7 +78,26 @@ Accedemos a la página de Node y descargar el instalador. Se instala como cualqu
 
 Este método es mas limitado y solamente funciona para usuarios de sistemas operativos tipo UNIX (Linux, Mac).
 
+### Archlinux
+```
+$ sudo pacman -S nodejs npm
+```
 
+### Fedora
+```
+$ sudo dnf groupinstall 'Development Tools'
+$ sudo dnf install nodejs
+```
+### Debian, Ubuntu
+```
+$ sudo apt-get install build-essential
+$ sudo apt-get install nodejs
+```
+
+Al finalizar cualquiera de los procedimientos descritos arriba, habremos instalado node js y npm en nuestra máquina y estaremos listos para desarrollar nuestras aplicaciones usando el tan amado y muchas veces odiado pero, al fin y al cabo, popular lenguaje de programación llamado JavaScript.
+
+### Mac (con Homebrew)
+$ brew install nodejs
 
 ## Algunos comandos de NodeJS
 
