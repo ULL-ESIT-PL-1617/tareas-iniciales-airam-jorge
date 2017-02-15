@@ -8,7 +8,7 @@ Para registrarnos debemos seguir los siguientes pasos:
 3.    Una vez verificada la cuenta ya podemos disfrutar de todas las ventajas que nos ofrece esta plataforma.
 ### ¿Cómo crear un repositorio? ###
 Para crear un repositorio en Github debemos seguir los siguientes pasos:
-1.    Hacer pulsamos el botón que aparece en la siguiente imagen:
+1.    Hacer pulsamos el botón que aparece en la siguiente imagen: ![Crear Repositorio](/img/github_repo.png)
 2.    Se nos abrirá un formulario como este:
 3.    Una vez lo rellenemos le damos a **create repository**.
 4.    Y ya tenemos nuestro repositorio creado.
