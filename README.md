@@ -1,4 +1,2 @@
-# My Awesome Book
-
-Hola soy yo.
-
+# Tutorial sobre las tareas iniciales
+Editado
