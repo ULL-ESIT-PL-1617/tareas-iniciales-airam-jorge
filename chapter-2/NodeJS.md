@@ -36,4 +36,11 @@ Es rápido, muy rápido. Esto es importante por varias razones:
 
 ## Instalación de NodeJS en Windows
 
-Nos descargamos el instalador desde la página de [node]("https://nodejs.org/es/").
+1. Nos descargamos el instalador desde la página de [node]("https://nodejs.org/es/").
+2. Una vez descargado, ejecutas el instalador y ¡ya lo tienes!
+
+Solo tendrás que acceder a la terminal de Windows (cmd) e introducimos el comando "node", entonces entrarás en la línea de comandos del propio NodeJS donde puedes ya escribir tus comandos Node, que luego veremos.
+
+## Instalación de NodeJS en Linux
+
+
