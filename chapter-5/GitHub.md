@@ -3,7 +3,7 @@
 Es una plataforma de desarrollo colaborativo que aloja proyectos utilizando el sistema de control de versiones de Git. Utiliza un framework Ruby on Rails.
 ### ¿Cómo podemos registrarnos?
 Para registrarnos debemos seguir los siguientes pasos:
-1.    Entrar en [Github](https://github.com/join) y rellenar un formulario como este: ![](/img/github_join.PNG)
+1.    Entrar en [Github](https://github.com/join) y rellenar un formulario como este: ![](/assets/gh2.png)
 2.    Nos llegará un correo de verificación que deberemos aceptar.
 3.    Una vez verificada la cuenta ya podemos disfrutar de todas las ventajas que nos ofrece esta plataforma.
 ### ¿Cómo crear un repositorio?
