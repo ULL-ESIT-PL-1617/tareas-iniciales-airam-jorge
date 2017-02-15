@@ -67,3 +67,9 @@ sudo apt-get update
 sudo apt-get install nodejs npm
 
 ```
+
+### Instalación de NodeJS en Mac
+
+Accedemos a la página de Node y descargar el instalador. Se instala como cualquier otra aplicación, tanto el propio NodeJS como npm.
+
+## Algunos comandos de NodeJS
