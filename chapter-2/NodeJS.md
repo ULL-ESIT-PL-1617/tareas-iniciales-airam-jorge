@@ -57,7 +57,7 @@ Con el primer comando obtienes el instalador y con el segundo comando haces la i
 
 ### Linux desactualizados
 
-
+Ejecutamos los siguientes comandos:
 
 ```
 
