@@ -6,6 +6,9 @@ Para registrarnos debemos seguir los siguientes pasos:
 1.    Entrar en [Github](https://github.com/join) y rellenar un formulario como este: ![](/img/github_join.png)
 2.    Nos llegará un correo de verificación que deberemos aceptar.
 3.    Una vez verificada la cuenta ya podemos disfrutar de todas las ventajas que nos ofrece esta plataforma.
+### ¿Que son los projects? ###
+Los projects son tareas, etapas o pasos por los que pasa el proyecto, podemos consultarlos en la pestaña **Projects** de nuestro repositorio.
+Podemos crear, modificar 
 ### ¿Cómo crear un repositorio? ###
 Para crear un repositorio en Github debemos seguir los siguientes pasos:
 1.    Hacer pulsamos el botón que aparece en la siguiente imagen: ![](/img/github_crear_repo.png)
