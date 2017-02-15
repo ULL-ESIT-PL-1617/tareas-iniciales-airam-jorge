@@ -34,6 +34,8 @@ Es rápido, muy rápido. Esto es importante por varias razones:
 * **Muchas Formas de Programar:** La falta inherente de organización de código se puede considerar una gran desventaja.
 * **No está Probado lo Suficiente.** Mientras no tengamos grandes proyectos en producción por varios años, no podremos saber donde está el problema.
 
+# Instalar NODEJS usando el instalador o los binarios oficiales
+
 ## Instalación de NodeJS en Windows
 
 1. Nos descargamos el instalador desde la página de [node]("https://nodejs.org/es/").
@@ -71,6 +73,12 @@ sudo apt-get install nodejs npm
 ### Instalación de NodeJS en Mac
 
 Accedemos a la página de Node y descargar el instalador. Se instala como cualquier otra aplicación, tanto el propio NodeJS como npm.
+
+# Instalar NodeJS por medio de un gestor de paquetes
+
+Este método es mas limitado y solamente funciona para usuarios de sistemas operativos tipo UNIX (Linux, Mac).
+
+
 
 ## Algunos comandos de NodeJS
 
