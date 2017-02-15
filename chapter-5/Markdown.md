@@ -6,6 +6,7 @@ Este método te permitirá añadir formatos tales como negritas, cursivas o enla
 
 
 ![](/img/Captura2.PNG)
-![](/img/Captura.PNG)
+![](/img/Captura.PNG)![](/assets/github_join.PNG)
+
 
 ## ¿Para qué sirve?
