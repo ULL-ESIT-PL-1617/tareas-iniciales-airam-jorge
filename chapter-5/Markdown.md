@@ -28,3 +28,37 @@ Este tipo de formato siempre será compatible con todas las plataformas que util
 
 Atom es un editor de código de fuente abierta para macOS, Linux, y Windows con soporte para plug-ins escrito en Node.js, Incrustando Git Control, desarrollado por GitHub. Atom es una aplicacion de escritorio construida utilizando tecnologias web. La mayor parte de los paquetes tienen licencias de software libre y es construido y mantenido por su comunidad.
 
+Lenguajes compatibles en algunos aspectos a partir de v1.5.1: HTML, CSS, Menos, Sass, GitHub Sazonó **Markdown**, C/C++, C#, Va, Java, Objetivo-C, Javascript, JSON, CoffeeScript, Python, PHP, Ruby, Ruby en Raíles, Shell Script, Clojure, Perl, Git, Marca, Property List(Apple), TOML, XML, YAML, Mustache, Julia & SQL.
+
+Tras instalar [Atom](https://atom.io/) en nuestro ordenador, podremos instalar los paquetes necesarios para ayudarnos a programar en el lenguaje que queramos, Markdown(en tiempo real) entre ellos. Facilitándonos y agilizando así la escritura del mismo.
+
+![](/assets/EjemMarkdown2.PNG)
+
+## Pandoc, conversor universal de documentos
+
+**Pandoc** es especialmente útil para diseñadores web y bloggers, ya que se centra en la conversión de diferentes formatos extendidos en dicha comunidad. Por ejemplo, es capaz de convertir HTML a **Markdown** y viceversa.
+
+Uno de los puntos fuertes de **Pandoc** es que dispone de múltiples versiones. Aunque originalmente esta escrito en Haskell (un lenguaje de programación puramente funcional y fuertemente tipado), **ha sido portado a Mac, Linux, Windows e incluso FreeBSD**, pero lo mejor de todo es que también dispone de una **[versión online](http://pandoc.org/try/)** totalmente funcional. Para hacer una prueba rápida tan sólo hay que pegar el texto deseado en el formulario, seleccionar el formato de origen, el de destino y pulsar convertir.
+
+
+**Pandoc** puede convertir desde **Markdown** (extendido o estricto), reStructuredText, HTML y LaTeX a los siguientes formatos:
+
+* HTML
+* Markdown (extendido o estricto)
+* reStructuredText
+* LaTeX
+* ConTeXt
+* DocBook
+* Groff man
+* RTF
+* OpenDocument XML
+* Texinfo
+* MediaWiki
+
+También es posible obtener archivos PDF a partir de los formatos de entrada mencionados, por medio de un script.
+
+De momento sólo se puede utilizar a través de línea de comandos (salvo la versión web) y no dispone de una interfaz gráfica, pero siendo código abierto y empezando a ser conocido entre la comunidad no sería raro empezar a ver frontends dentro de poco.
+
+**Pandoc** esta publicado bajo licencia GPL y se puede descargar de forma gratuita en su [página web](http://pandoc.org/installing.html).
+
+
