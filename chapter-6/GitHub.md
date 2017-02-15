@@ -12,7 +12,6 @@ Para crear un repositorio en Github debemos seguir los siguientes pasos:
 2.    Se nos abrirá un formulario como este: ![](/img/github_repo_form.png)
 3.    Una vez lo rellenemos le damos a **create repository**.
 4.    Y ya tenemos nuestro repositorio creado.
-
 ### ¿Que son los projects?
 Los projects son tareas, etapas o pasos por los que pasa el proyecto, podemos consultarlos en la pestaña **Projects** de nuestro repositorio.
 Podemos crear, modificar, eliminar o borrar etapas y llevarlas a otro estado, un ejemplo simple sería: 
