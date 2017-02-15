@@ -31,11 +31,9 @@ $ hub clone rtomayko/tilt
 # Se expande a:
 $ git clone git://github.com/rtomayko/tilt.git
 ```
-
 #### Instalación
 [Aquí](https://github.com/github/hub/releases) podemos obtener el archivo de descarga para poder instalar hub en distintos sistemas operativos como OS X, Linux, Windows, FreeBSD.
 Para instalarlo desde la fuente de [hub](https://github.com/github/hub) en git:
-
 ```
 $ git clone https://github.com/github/hub.git
 $ cd hub
