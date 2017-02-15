@@ -25,6 +25,17 @@ En nuestro caso seleccionaremos la opción de **Libro y Manual**. A continuació
 
 ![](/assets/gitbook2.PNG)
 
+En la interfaz se puede acceder a diferentes pestañas. 
+
+|----------|:-------------:|
+|About|  Pestaña principal. Muestra el Readme en el directorio raíz si existe.  |
+|----------|:-------------:|
+|Discussions |    Permite crear discusiones sobre el proyecto.   |
+|Updates | Actualziaciones del libro, equivalente a los *commits* de Git |
+|Traffic| Estadísticas de interés |
+|Settings|
+    
+
 Se utiliza después 
 Que es gitbook y como se utiliza  
 Como se despliega un lkibro en gitbook.com  
