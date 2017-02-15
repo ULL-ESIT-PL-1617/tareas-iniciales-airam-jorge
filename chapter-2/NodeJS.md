@@ -10,10 +10,11 @@ Node afirma que un servidor que lo ejecute puede soportar decenas de miles de co
 Node es un programa de servidor. Sin embargo, el producto base de Node definitivamente No es como Apache o Tomcat.
 ## Ventajas
 Es rápido, muy rápido. Esto es importante por varias razones:
-1. El desarrollo es más rápido.
-2. La ejecución de tests de unidad se puede hacer más rápido.
-3. Las aplicaciones son más rápidas y por tanto la experiencia de usuario es mejor.
-4. Menor coste de infraestrucutra (Linkedin pasó de tener 15 servidores a 4).
+* El desarrollo es más rápido.
+* La ejecución de tests de unidad se puede hacer más rápido.
+* Las aplicaciones son más rápidas y por tanto la experiencia de usuario es mejor.
+* Menor coste de infraestrucutra (Linkedin pasó de tener 15 servidores a 4).
+
 ## Desventajas
 * **API Inestable:**  La API de Node tiene la mala costumbre de cambiar en formas que rompen la compatibilidad hacia atrás de versión en versión.
 * **Falta de una Librería Estándar y Generales:** JavaScript es un lenguajes con un buen núcleo pero con una flaca librería estándar.
@@ -75,7 +76,7 @@ $ brew install nodejs
 Al finalizar cualquiera de los procedimientos descritos arriba, habremos instalado node js y npm en nuestra máquina y estaremos listos para desarrollar nuestras aplicaciones usando el lenguaje de programación llamado JavaScript.
 ## Algunos comandos de NodeJS
 Tras ejecutar el comando node accedemos a la línea de comandos del propio NodeJS, donde podremos escribir los comandos tales como:
-```
+```javascript
 $ node
 >console.log("Hola Mundo");
 Hola Mundo
