@@ -44,4 +44,6 @@ Al hacer esto se crea un directorio **.git** que contendrá toda la información
 -  Mostrar sólo una línea por cada commit en la traza: `$ git config format.pretty oneline`
 -  Agregar archivos de forma interactiva: `$ git add -i`
 ### Claves ssh
-Puede ser útil generar claves públicas y privadas para acceder a los comandos de git que requieran autenticación sin necesidad de escribir los credenciales. 
+Puede ser útil generar claves públicas y privadas para acceder a los comandos de git que requieran autenticación sin necesidad de escribir los credenciales. Para ello utilizaremos las herramientas de *git* que han sido instaladas junto con el paquete.
+
+* 
