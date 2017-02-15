@@ -27,9 +27,10 @@ En nuestro caso seleccionaremos la opción de **Libro y Manual**. A continuació
 
 En la interfaz se puede acceder a diferentes pestañas. 
 
-|----------|:-------------:|
+| Pestaña | Descripción |
+|----------|-------------|
 |About|  Pestaña principal. Muestra el Readme en el directorio raíz si existe.  |
-|----------|:-------------:|
+|----------|-------------|
 |Discussions |    Permite crear discusiones sobre el proyecto.   |
 |Updates | Actualziaciones del libro, equivalente a los *commits* de Git |
 |Traffic| Estadísticas de interés |
