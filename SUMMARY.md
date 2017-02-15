@@ -10,3 +10,4 @@
 * [gh-pages](chapter-6/gh-pages.md)
 * [Gulp](chapter-6/Gulp.md)
 * [Gitbook](chapter-7/Gitbook.md)
+* [Gitbook Sync](chapter-7/GitBookSync.md)
