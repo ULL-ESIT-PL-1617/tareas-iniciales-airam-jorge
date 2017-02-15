@@ -43,3 +43,11 @@ Solo tendrás que acceder a la terminal de Windows (cmd) e introducimos el coman
 
 ## Instalación de NodeJS en Linux
 
+Ejecutamos los siguientes comandos:
+
+```
+
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+```
