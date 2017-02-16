@@ -23,6 +23,12 @@ Para crear una issue deberemos darle al botón **issue** de nuestro repositorio 
 ![](/assets/gh3.png)
 Una vez ahí rellenamos el título de la incidencia y en el comentario podemos referirnos a un commit concreto, asignárselo a una persona (en la parte derecha assignees), aplicar una categoría a la issue (labels, en la parte derecha).
 Una vez terminado le damos a **Submit new issue**.
+### Github Desktop
+Github Desktop es la versión de escritorio para el uso del control de versiones de Git. Esta opción es perfecta para los usuarios que no se manejan bien con los comandos en la terminal y prefieren una opción más gráfica y visual.
+
+![](/assets/GHDesktop.PNG)
+
+Para descargarla sólo basta con acceder a la [página de descarga](https://desktop.github.com/) e instalar el ejecutable. Después ya podremos logearnos y comenzar a utilizar nuestra aplicación Git.
 ### Hub
 Hub es una herramienta de línea de comandos que envuelve git con el fin de ampliarlo con funciones y comandos adicionales que facilitan el trabajo con GitHub.
 Ejemplo:
