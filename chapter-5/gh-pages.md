@@ -24,3 +24,11 @@ export default function deployGitbook () {
   })
 }
 ```
+
+### Páginas de usuario en GitHub
+
+Los usuarios y las organizaciones pueden tener acceso a almacenamiento para páginas web personales. El funcionamiento es el mismo que el de las propias GitHub pages, sólo que será necesario crear un repositorio siguiendo el siguiente esquema de nombre.
+
+`<username>.github.io`
+
+**El contenido de la rama master será el usado para construir y publicar tu página de *GitHub*** (Al contrario de los repositorios normales que utilizan la rama *gh-pages*). Sólo es posible utilizar tu nombre para crear el repositorio. Un repositorio del tipo `joe/bob.github.iop no será construido en una página de usuario.
