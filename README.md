@@ -27,8 +27,6 @@ Este tutorial explicará los pasos para instalar las diferentes herramientas que
  </tr>
  <tr>
  <td> Kevin Díaz </td>
- 
- 
  <td> <a href="https://github.com/alu010088062">GitHub</a> </td>
  <td> <a href="https://alu010088062.github.io/">Página personal</a></td>
  </tr>
@@ -39,14 +37,5 @@ Este tutorial explicará los pasos para instalar las diferentes herramientas que
  </tr>
 </table>
 
-|    |  |  |
-| ------------ |-------------| -----|
-| | Airam Navas   | [GitHub](https://github.com/AiramNavas) | [Página personal](https://airamnavas.github.io/) |
-|       |       |    |
-| |      |    
-
- ![](/assets/airam.png) 
-
-[![](/assets/jorge.jpg)]()  [![](/assets/kevin.png)](5)
 
 
