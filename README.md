@@ -12,7 +12,7 @@ Este tutorial explicará los pasos para instalar las diferentes herramientas que
 - Gitbook
 
 ##### Enlaces de interés.
- - [Despliege](https://ull-esit-pl-1617.github.io/tareas-iniciales-airam-jorge/) en gh-pages.
+ - [Despliegue](https://ull-esit-pl-1617.github.io/tareas-iniciales-airam-jorge/) en gh-pages.
  - [Despliege](https://www.gitbook.com/book/ediolot/tareas-iniciales/details) en Gitbook.
  - [Descripción](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales.html) de la práctica en Gitbook.
  - [Campus virtual](https://campusvirtual.ull.es/1617/course/view.php?id=1148) de la asignatura
