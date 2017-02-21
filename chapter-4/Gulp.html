@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Git · GitBook</title>
+        <title>Gulp · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Git.html" />
+    <link rel="next" href="../chapter-5/Gitbook.html" />
     
     
-    <link rel="prev" href="../chapter-4/Markdown.html" />
+    <link rel="prev" href="gh-pages.html" />
     
 
     </head>
@@ -102,22 +102,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="../chapter-1/Introducción.html">
+        <li class="chapter " data-level="1.2" data-path="../chapter-1/NodeJS.html">
             
-                <a href="../chapter-1/Introducción.html">
-            
-                    
-                    Introducción al tutorial
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3" data-path="../chapter-2/NodeJS.html">
-            
-                <a href="../chapter-2/NodeJS.html">
+                <a href="../chapter-1/NodeJS.html">
             
                     
                     NodeJS
@@ -128,9 +115,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../chapter-3/C9.html">
+        <li class="chapter " data-level="1.3" data-path="../chapter-2/C9.html">
             
-                <a href="../chapter-3/C9.html">
+                <a href="../chapter-2/C9.html">
             
                     
                     Plataforma C9
@@ -141,9 +128,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../chapter-4/Markdown.html">
+        <li class="chapter " data-level="1.4" data-path="../chapter-3/Markdown.html">
             
-                <a href="../chapter-4/Markdown.html">
+                <a href="../chapter-3/Markdown.html">
             
                     
                     Markdown
@@ -154,7 +141,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.6" data-path="InfoGit.html">
+        <li class="chapter " data-level="1.5" data-path="InfoGit.html">
             
                 <a href="InfoGit.html">
             
@@ -168,7 +155,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="Git.html">
+        <li class="chapter " data-level="1.5.1" data-path="Git.html">
             
                 <a href="Git.html">
             
@@ -181,7 +168,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="GitHub.html">
+        <li class="chapter " data-level="1.5.2" data-path="GitHub.html">
             
                 <a href="GitHub.html">
             
@@ -194,7 +181,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.3" data-path="gh-pages.html">
+        <li class="chapter " data-level="1.5.3" data-path="gh-pages.html">
             
                 <a href="gh-pages.html">
             
@@ -207,7 +194,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.4" data-path="Gulp.html">
+        <li class="chapter active" data-level="1.5.4" data-path="Gulp.html">
             
                 <a href="Gulp.html">
             
@@ -225,9 +212,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../chapter-6/Gitbook.html">
+        <li class="chapter " data-level="1.6" data-path="../chapter-5/Gitbook.html">
             
-                <a href="../chapter-6/Gitbook.html">
+                <a href="../chapter-5/Gitbook.html">
             
                     
                     Gitbook
@@ -268,7 +255,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Git</a>
+        <a href=".." >Gulp</a>
     </h1>
 </div>
 
@@ -283,12 +270,35 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="git">Git</h1>
+                                <h3 id="&#xBF;qu&#xE9;-es-gulp">&#xBF;Qu&#xE9; es Gulp?.</h3>
+<p>Gulp es una herramienta de automatizaci&#xF3;n de tareas escrito en Javascript para Node.js. Al contrario que otros sistemas de automatizaci&#xF3;n como Grunt, Gulp hace uso del m&#xF3;dulo Stream de Node.js para poder concatenar tareas usando tuber&#xED;as. Normalmente los automatizadores de tareas escriben los cambios al disco despu&#xE9;s de cada tarea, lo que provoca retardo cuando manejamos muchos ficheros. La ventaja de usar tuber&#xED;as, es que estos ficheros no pasan por el disco, sino que se pasan de tuber&#xED;a en tuber&#xED;a, lo que aumenta la velocidad a la que se ejecutan las tareas.</p>
+<h3 id="&#xBF;c&#xF3;mo-automatizar-tareas-con-gulp">&#xBF;C&#xF3;mo automatizar tareas con Gulp?</h3>
+<p>En esta secci&#xF3;n veremos c&#xF3;mo usar gulpfile, tomando de ejemplo un desarrollo simple de frontend.
+Fichero gulpfile.js</p>
+<p>Al igual que otros automatizadores de tareas, necesitaremos un fichero de configuraci&#xF3;n donde almacenaremos nuestras tareas y otras cosas que necesitemos. Gulp sigue la convenci&#xF3;n de llamar a su fichero por el nombre del programa y la palabra file, como makefile, rakefile o gruntfile.</p>
+<h3 id="ejemplo-de-tarea">Ejemplo de tarea</h3>
+<p>Para poder crear una tarea, necesitamos llamar a la funci&#xF3;n task de gulp, y pasarle como par&#xE1;metros el nombre de la tarea y la funci&#xF3;n que se ejecutar&#xE1; al ser llamada. Por ejemplo, para minificar ficheros y almacenarlos en el directorio dist:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> gulp = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp&apos;</span>);
+<span class="hljs-keyword">var</span> minify = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-minifier&apos;</span>);
+
+gulp.task(<span class="hljs-string">&apos;minify&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> gulp.src([<span class="hljs-string">&apos;index.html&apos;</span>, <span class="hljs-string">&apos;styles.css&apos;</span>, <span class="hljs-string">&apos;main.js&apos;</span>])
+    .pipe(minify())
+    .pipe(gulp.dest(<span class="hljs-string">&apos;dist&apos;</span>));
+})
+</code></pre>
+<p>De este modo, minificar&#xED;amos los ficheros index.html, styles.css y main.js y los almacenar&#xED;amos en dist.</p>
+<h3 id="tareas">Tareas</h3>
 <ul>
-<li><a href="Git.html">Git</a></li>
-<li><a href="GitHub.html">GitHub</a></li>
-<li><a href="gh-pages.html">Las gh-pages</a></li>
-<li><a href="Gulp.html">Gulp</a></li>
+<li><strong>contributors</strong>: Generar el fichero MAINTAINERS con los datos de quienes hayan hecho commits.</li>
+<li><strong>generateGitbook</strong>: Convertir los MD a HTML usando gitbook y colocarlo en el directorio gh-pages.</li>
+<li><strong>generateWiki</strong>: Desplegar el contenido del directorio gh-pages en las Gh-pages.</li>
+<li><strong>deployWiki</strong>: Desplegar el contenido del directorio wiki en la wiki del repo (aunque aqu&#xED; no funcionan los plugins de gitbook).</li>
+<li><strong>serve</strong>: Lanza un servidor que se recarga autom&#xE1;ticamente cuando hay alg&#xFA;n cambio.</li>
+<li><strong>install</strong>: Instala los plugins de gitbook.</li>
+<li><strong>build</strong>: Instala los plugins y genera la wiki y las gh-pages.</li>
+<li><strong>deploy</strong>: Despliga los contenido de la wiki y las gh-pages en los lugares correspondientes.</li>
+<li><strong>default</strong>: La tarea por defecto apunta a build.</li>
 </ul>
 
                                 
@@ -317,12 +327,12 @@
 
             
                 
-                <a href="../chapter-4/Markdown.html" class="navigation navigation-prev " aria-label="Previous page: Markdown">
+                <a href="gh-pages.html" class="navigation navigation-prev " aria-label="Previous page: Las gh-pages">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Git.html" class="navigation navigation-next " aria-label="Next page: Git">
+                <a href="../chapter-5/Gitbook.html" class="navigation navigation-next " aria-label="Next page: Gitbook">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -333,7 +343,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.6","depth":1,"next":{"title":"Git","level":"1.6.1","depth":2,"path":"chapter-5/Git.md","ref":"chapter-5/Git.md","articles":[]},"previous":{"title":"Markdown","level":"1.5","depth":1,"path":"chapter-4/Markdown.md","ref":"chapter-4/Markdown.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter-5/InfoGit.md","mtime":"2017-02-16T00:33:08.007Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-16T00:34:01.148Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Gulp","level":"1.5.4","depth":2,"next":{"title":"Gitbook","level":"1.6","depth":1,"path":"chapter-5/Gitbook.md","ref":"chapter-5/Gitbook.md","articles":[]},"previous":{"title":"Las gh-pages","level":"1.5.3","depth":2,"path":"chapter-4/gh-pages.md","ref":"chapter-4/gh-pages.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter-4/Gulp.md","mtime":"2017-02-21T20:22:15.726Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-21T20:22:48.149Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
